@@ -1,0 +1,20 @@
+{
+  "name": "barbershop",
+  "version": "0.0.1",
+  "description": "Download your third-party scripts and make them look nice!",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.4.2",
+    "mkdirp": "^0.5.1",
+    "request": "^2.65.0",
+    "uglify-js": "^2.5.0",
+    "winston": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Gil <hey@andregil.org> (http://somepixels.net/)",
+  "license": "MIT"
+}

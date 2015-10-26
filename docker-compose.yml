@@ -1,0 +1,7 @@
+barbershop:
+  build: ./
+  ports:
+    - 80:8080
+  #volumes:
+  #- ./core/:/usr/src/app
+  #command: nodemon --ignore node_modules/ --delay 2 index.js
