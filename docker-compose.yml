@@ -1,7 +1,7 @@
 barbershop:
   build: ./
   ports:
-    - 80:8080
-  #volumes:
-  #- ./core/:/usr/src/app
+    - 8080:80
+  volumes:
+    - ./:/usr/share/nginx/html
   #command: nodemon --ignore node_modules/ --delay 2 index.js
